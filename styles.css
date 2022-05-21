@@ -1,6 +1,6 @@
 .main-container {
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .logo-img {
@@ -10,6 +10,10 @@
 
 .navbar-brand {
   width: 30%;
+}
+
+.nav-link {
+  color: navy !important;
 }
 
 .nav-item {
