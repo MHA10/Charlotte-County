@@ -1,3 +1,4 @@
+/* 1 */
 .main-container {
   margin-left: 10%;
   margin-right: 10%;
@@ -27,4 +28,39 @@
 .hamburger-icon {
   width: 4%;
   height: 4%;
+}
+
+/* 2 */
+
+.div-roger-msg-signature {
+  padding-top: 3%;
+  margin-left: 15%;
+}
+
+.div-roger-pic-signature {
+  background-color: grey;
+  border-radius: 0 0 0 250px;
+}
+
+.roger-pic-signature-img {
+  width: 15%;
+}
+
+.left-quote-img {
+  width: 5%;
+}
+
+.roger-pic-img {
+  margin-top: 11%;
+  width: 59%;
+  height: 84.35%;
+  margin-left: 35%;
+}
+
+.p-roger-name {
+  font-size: 2rem;
+}
+
+.p-roger-msg {
+  width: 50%;
 }
