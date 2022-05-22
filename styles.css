@@ -64,3 +64,62 @@
 .p-roger-msg {
   width: 50%;
 }
+
+/* 3 */
+
+.div-query-box-msg {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.p-welcome-msg {
+  font-size: 2rem;
+  text-align: center;
+  color: navy;
+}
+
+.div-query-box input {
+  width: 100%;
+  height: 55px;
+  font-size: 1.25rem;
+  padding-left: 10%;
+  border-radius: 0 0 35px 0;
+  border-style: ridge;
+  border-width: 6px;
+  border-color: #e8e8e8;
+  background-image: linear-gradient(white, #e8e8e8);
+}
+
+.div-query-box img {
+  position: absolute;
+  width: 2.25%;
+  margin-top: 9px;
+  margin-left: 16px;
+}
+
+.p-query-msg {
+  color: lightgray;
+  font-style: italic;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 1.25rem;
+}
+
+.query-meet-link-btn {
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 25px;
+  border-radius: 9px;
+  background-color: red;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  padding-left: 14px;
+  width: 150px;
+}
+
+a:hover {
+  color: white;
+}
