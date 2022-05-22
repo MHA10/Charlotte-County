@@ -123,3 +123,31 @@
 a:hover {
   color: white;
 }
+
+/* 4 */
+.div-links {
+  background-color: whitesmoke;
+  border-radius: 0 0 250px 0;
+  margin-top: 5%;
+}
+
+.row-circular-icons {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+}
+
+.circular-icon-img {
+  width: 60%;
+}
+
+.circular-icon-img-txt {
+  text-align: center;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
