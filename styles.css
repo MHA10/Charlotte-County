@@ -154,6 +154,10 @@ a:hover {
 
 /* 6 */
 
+.main-bg-notice-div {
+  background-color: #00609a;
+}
+
 .div-notice-announcements {
   background-color: whitesmoke;
   border-radius: 0 0 250px 0;
@@ -287,4 +291,60 @@ a:hover {
   font-size: 0.5rem;
   position: absolute;
   color: white;
+}
+
+/* 7 */
+
+.contact-us-div {
+  background-color: #00609a;
+  padding-bottom: 5%;
+}
+
+.contact-us-logo-img {
+  width: 7%;
+  margin-left: 43%;
+  margin-top: 4%;
+}
+
+.contact-us-col-sm-1 {
+  margin-left: 25%;
+}
+
+.contact-us-h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 0.25%;
+}
+
+.contact-us-h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 0.25%;
+}
+
+.contact-us-h3 {
+  font-size: 1.25rem;
+  text-align: center;
+  color: white;
+  letter-spacing: 20px;
+}
+
+.contact-us-h4 {
+  font-size: 1.25rem;
+  color: #9bd0fc;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+.contact-us-text {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: -1%;
+}
+
+.contact-us-social-img {
+  width: 10%;
+  margin-top: 1%;
 }
