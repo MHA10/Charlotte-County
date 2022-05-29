@@ -151,3 +151,140 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* 6 */
+
+.div-notice-announcements {
+  background-color: whitesmoke;
+  border-radius: 0 0 250px 0;
+  margin-top: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.notice-hr {
+  width: 6%;
+  margin-left: 45%;
+  border: 2px solid red;
+  opacity: 1;
+}
+
+.notice-heading-div {
+  display: flex;
+}
+
+.notice-heading-notice-p {
+  color: slateblue;
+  font-size: 2.5rem;
+  width: 42%;
+  text-align: right;
+}
+
+.notice-heading-announcement-p {
+  color: slateblue;
+  font-size: 2.5rem;
+  width: 49%;
+  text-align: left;
+}
+
+.notice-asterik-p {
+  text-align: center;
+  color: red;
+  font-size: 2.5rem;
+  padding-top: 1%;
+  width: 2%;
+  margin-top: -0.5%;
+}
+
+.notice-card-big {
+  border-radius: 20px;
+  width: 17rem;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.2) 3.95px 3.95px 2.6px;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.notice-img {
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 15vw;
+  object-fit: cover;
+  object-position: top;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.notice-big-card-title {
+  color: red;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.notice-big-card-btn {
+  background-color: red;
+  border: none;
+  border-radius: 20px 0px 20px 0;
+  right: 0;
+  bottom: 0;
+  line-height: 150%;
+  width: 45%;
+  font-size: 0.8rem;
+  position: absolute;
+}
+
+.col-sm-big-card {
+  margin-left: 20%;
+}
+
+.notice-big-card-name {
+  color: lightgray;
+  font-size: 0.7rem;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.notice-big-card-date {
+  color: slateblue;
+  font-size: 0.7rem;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.notice-card-small {
+  border-radius: 20px;
+  width: 60%;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.2) 3.95px 3.95px 2.6px;
+  margin-left: -30%;
+  margin-bottom: 5%;
+}
+
+.notice-small-card-title {
+  color: red;
+  font-size: 0.7rem;
+}
+
+.notice-small-card-text {
+  font-size: 0.6rem;
+}
+
+.notice-small-card-name {
+  color: lightgray;
+  font-size: 0.5rem;
+}
+
+.notice-small-card-date {
+  background-color: red;
+  border: none;
+  border-radius: 0 20px 0px 20px;
+  right: 0;
+  top: 0;
+  line-height: 300%;
+  width: 22%;
+  font-size: 0.5rem;
+  position: absolute;
+  color: white;
+}
