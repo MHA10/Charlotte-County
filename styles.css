@@ -18,6 +18,8 @@
 }
 
 .nav-item {
+  font-family: MyriadPro;
+  font-size: 1.25rem;
   padding-right: 4rem;
 }
 
@@ -58,10 +60,12 @@
 }
 
 .p-roger-name {
-  font-size: 2rem;
+  font-family: MinionVariable;
+  font-size: 3rem;
 }
 
 .p-roger-msg {
+  font-family: MyriadPro;
   width: 50%;
 }
 
@@ -73,6 +77,7 @@
 }
 
 .p-welcome-msg {
+  font-family: MyriadPro;
   font-size: 2rem;
   text-align: center;
   color: navy;
@@ -81,6 +86,7 @@
 .div-query-box input {
   width: 100%;
   height: 55px;
+  font-family: MyriadPro;
   font-size: 1.25rem;
   padding-left: 10%;
   border-radius: 0 0 35px 0;
@@ -99,6 +105,7 @@
 
 .p-query-msg {
   color: lightgray;
+  font-family: MyriadPro;
   font-style: italic;
   margin-top: 30px;
   margin-left: 40px;
@@ -106,6 +113,7 @@
 }
 
 .query-meet-link-btn {
+  font-family: MyriadPro;
   margin-top: 20px;
   margin-left: 40px;
   height: 25px;
@@ -116,7 +124,7 @@
   appearance: button;
   text-decoration: none;
   color: white;
-  padding-left: 14px;
+  padding-left: 20px;
   width: 150px;
 }
 
@@ -142,6 +150,7 @@ a:hover {
 
 .circular-icon-img-txt {
   text-align: center;
+  font-family: MyriadProBold;
   font-size: 1.5rem;
   color: gray;
 }
@@ -179,6 +188,7 @@ a:hover {
 
 .notice-heading-notice-p {
   color: slateblue;
+  font-family: MyriadProBold;
   font-size: 2.5rem;
   width: 42%;
   text-align: right;
@@ -186,6 +196,7 @@ a:hover {
 
 .notice-heading-announcement-p {
   color: slateblue;
+  font-family: MyriadProBold;
   font-size: 2.5rem;
   width: 49%;
   text-align: left;
@@ -194,6 +205,7 @@ a:hover {
 .notice-asterik-p {
   text-align: center;
   color: red;
+  font-family: MyriadProBold;
   font-size: 2.5rem;
   padding-top: 1%;
   width: 2%;
@@ -223,6 +235,7 @@ a:hover {
 
 .notice-big-card-title {
   color: red;
+  font-family: MyriadPro;
   font-size: 1rem;
   font-style: italic;
 }
@@ -235,6 +248,7 @@ a:hover {
   bottom: 0;
   line-height: 150%;
   width: 45%;
+  font-family: MyriadPro;
   font-size: 0.8rem;
   position: absolute;
 }
@@ -245,6 +259,7 @@ a:hover {
 
 .notice-big-card-name {
   color: lightgray;
+  font-family: MyriadPro;
   font-size: 0.7rem;
   margin-left: 20%;
   margin-top: 10%;
@@ -252,6 +267,7 @@ a:hover {
 
 .notice-big-card-date {
   color: slateblue;
+  font-family: MyriadPro;
   font-size: 0.7rem;
   margin-left: 20%;
   margin-top: 10%;
@@ -268,15 +284,18 @@ a:hover {
 
 .notice-small-card-title {
   color: red;
+  font-family: MyriadPro;
   font-size: 0.7rem;
 }
 
 .notice-small-card-text {
+  font-family: MyriadPro;
   font-size: 0.6rem;
 }
 
 .notice-small-card-name {
   color: lightgray;
+  font-family: MyriadPro;
   font-size: 0.5rem;
 }
 
@@ -288,6 +307,7 @@ a:hover {
   top: 0;
   line-height: 300%;
   width: 22%;
+  font-family: MyriadPro;
   font-size: 0.5rem;
   position: absolute;
   color: white;
@@ -312,6 +332,7 @@ a:hover {
 }
 
 .contact-us-h1 {
+  font-family: MinionVariable;
   font-size: 4rem;
   text-align: center;
   color: white;
@@ -319,6 +340,7 @@ a:hover {
 }
 
 .contact-us-h2 {
+  font-family: MinionVariable;
   font-size: 1.25rem;
   text-align: center;
   color: white;
@@ -326,6 +348,7 @@ a:hover {
 }
 
 .contact-us-h3 {
+  font-family: MinionVariable;
   font-size: 1.25rem;
   text-align: center;
   color: white;
@@ -333,6 +356,7 @@ a:hover {
 }
 
 .contact-us-h4 {
+  font-family: MinionVariable;
   font-size: 1.25rem;
   color: #9bd0fc;
   margin-top: 4%;
@@ -340,6 +364,7 @@ a:hover {
 }
 
 .contact-us-text {
+  font-family: MyriadPro;
   font-size: 1rem;
   color: white;
   margin-bottom: -1%;
@@ -363,4 +388,19 @@ a:hover {
   opacity: 1;
   bottom: 0;
   margin-bottom: 0;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url("./WEB CLERK Folder/WEB CLERK Folder/Document fonts/MyriadVariableConcept-Roman.otf");
+}
+
+@font-face {
+  font-family: MyriadProBold;
+  src: url("./WEB CLERK Folder/WEB CLERK Folder/Document fonts/MyriadPro-Bold.otf");
+}
+
+@font-face {
+  font-family: MinionVariable;
+  src: url("./WEB CLERK Folder/WEB CLERK Folder/Document fonts/MinionVariableConcept-Roman.otf");
 }
