@@ -227,15 +227,21 @@ a:hover {
 }
 .card .content .title {
   font-family: MyriadPro;
-  font-size: 20px;
+  font-size: 0.75rem;
   font-weight: 600;
   color: blue;
   text-align: left;
   margin-bottom: 20px;
 }
+
+.card .content p {
+  font-family: MyriadPro;
+  font-size: 0.6rem;
+}
+
 .card .content .date {
   font-family: MyriadPro;
-  font-size: 10px;
+  font-size: 0.5rem;
   font-weight: 600;
   color: #e74c3c;
   text-align: left;
@@ -280,6 +286,20 @@ a:hover {
   top: 30%;
   right: -100px;
   transform: translate(-50%, -50%);
+}
+
+.owl-carousel {
+  width: 80%;
+}
+
+.owl-next {
+  margin-right: 12%;
+}
+
+@media screen and (min-width: 830px) {
+  .slider .card {
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -497,6 +517,12 @@ a:hover {
   font-size: 0.5rem;
   position: absolute;
   color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .notice-card-small {
+    margin-left: 0%;
+  }
 }
 
 /* 7 */
