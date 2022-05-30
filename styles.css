@@ -161,6 +161,193 @@ a:hover {
   margin-right: auto;
 }
 
+/* 5 */
+
+.main-bg-clerk-news {
+  background-color: whitesmoke;
+}
+
+.div-clerk-news {
+  border-radius: 0 0 0 250px;
+  background-color: white;
+}
+
+.clerk-news-arrow-img {
+  width: 2%;
+  margin-top: 5%;
+  margin-left: 26%;
+  margin-bottom: 0.5%;
+}
+
+.clerk-news-heading-p {
+  font-family: MyriadPro;
+  font-size: 3rem;
+  margin-left: 25%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MyriadPro;
+}
+
+.slider {
+  margin-left: 20%;
+  max-width: 1100px;
+  display: flex;
+  position: relative;
+  /*   overflow: hidden; */
+}
+.slider .card {
+  width: 80%;
+  flex: 1;
+  margin: 0 10px;
+  background: #e8e8e8;
+  box-shadow: 2px 2px 10px #888888;
+  border-radius: 4px;
+}
+.center .card {
+  background: #fff;
+}
+.slider .card .img {
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slider .card .content {
+  padding: 10px 30px 50px;
+  font-family: MyriadPro;
+  font-size: 14px;
+}
+.card .content .title {
+  font-family: MyriadPro;
+  font-size: 20px;
+  font-weight: 600;
+  color: blue;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card .content .date {
+  font-family: MyriadPro;
+  font-size: 10px;
+  font-weight: 600;
+  color: #e74c3c;
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content p {
+  text-align: left;
+  margin: 10px 0;
+}
+.card .content .btn {
+  margin: 30px 0;
+
+  text-align: right;
+}
+.card .content .btn button {
+  background: red;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: MyriadPro;
+  font-size: 14px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+.card .content .btn {
+  display: none;
+}
+.center .card .content .btn {
+  display: block;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: 30%;
+  left: -30px;
+  transform: translate(-50%, -50%);
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: 30%;
+  right: -100px;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1280px) {
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: 30%;
+    left: -90px;
+    transform: translate(-50%, -50%);
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    top: 30%;
+    right: -160px;
+    transform: translate(-50%, -50%);
+  }
+}
+.owl-stage {
+  padding-bottom: 20px;
+}
+@media (max-width: 1100px) {
+  .slider {
+    overflow: hidden !important;
+  }
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  height: 65px;
+  width: 65px;
+  border-radius: 15px;
+  background: rgb(255, 0, 31) !important;
+  background: rgb(255, 0, 0) !important;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 38%,
+    rgba(251, 180, 180, 1) 100%
+  ) !important;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 38%,
+    rgba(251, 180, 180, 1) 100%
+  ) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 38%,
+    rgba(251, 180, 180, 1) 100%
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#fbb4b4",GradientType=1) !important;
+}
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i {
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.owl-nav .owl-prev i {
+  left: 40%;
+}
+.owl-nav .owl-next i {
+  left: 50%;
+}
+
 /* 6 */
 
 .main-bg-notice-div {
@@ -170,7 +357,6 @@ a:hover {
 .div-notice-announcements {
   background-color: whitesmoke;
   border-radius: 0 0 250px 0;
-  margin-top: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
 }
